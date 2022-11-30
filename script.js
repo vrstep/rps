@@ -5,4 +5,10 @@ function getComputerChoice() {
     return computerSelection;
 }
 
-console.log(getComputerChoice());
+function getPlayerChoice() {
+    let playerChoice = prompt("Hello");
+    let playerSelection = playerChoice.toLowerCase();
+    return playerSelection;
+}
+
+console.log(getPlayerChoice());
