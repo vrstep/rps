@@ -50,6 +50,7 @@ function playRound(playerSelection, computerSelection) {
     return resultOfRound;
 }
 
-console.log(playerSelection);
-console.log(computerSelection);
-console.log(playRound(playerSelection, computerSelection));
+function game() {
+    playRound(playerSelection, computerSelection);
+}
+
